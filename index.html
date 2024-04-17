@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>First Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    * {
+      font-family: Montserrat;
+    }
+
+    .text-rgba {
+      color: rgba(159, 178, 255, 1);
+      text-decoration: underline;
+    }
+
+    .track-font {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .worry-font {
+      font-size: 16px;
+      color: rgba(120, 120, 120, 1);
+    }
+  </style>
+</head>
+<body class="bg-gray-100 m-4"  >
+  <div class="text-right mt-auto">
+    <a href="signup.html" class="text-rgba">Skip</a>
+  </div>
+  <div class="flex flex-col items-center justify-center">
+    <img src="img/image 13.png" alt="Image" class="mb-8" style="width: 282px; height: 282px;">
+    <div class="text-left mb-8">
+      <h1 class="track-font mb-2">Track Your Goal</h1>
+      <div class="worry-font">Don’t worry if you have trouble <br> determining your goals. We can help you <br> determine and track your goals.</div>
+    </div>
+    <div id="navigateBtn" class="flex items-center justify-center self-end m-4 mb-0" style="background: url(./img/group1.png) ;width:60px;height: 60px;">
+     
+   </div>
+      
+  </div>
+
+  <script>
+    document.getElementById('navigateBtn').addEventListener('click', function() {
+      window.location.href = 'index2.html';
+    });
+  </script>
+</body>
+</html>

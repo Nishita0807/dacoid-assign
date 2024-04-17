@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+<style>
+    .scroll-content{
+height:600px;
+        overflow-y: scroll;
+        
+    }
+    .custom-shadow {
+            box-shadow: -4px 8px 25px -8px rgba(0, 0, 0, 0.15); /* X, Y, Blur, Spread */
+        }
+   footer {
+            position: fixed;
+            bottom: 0px;
+            left: 0;
+            width: 100%;
+            background-color: white;
+            z-index: 1;
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            padding-top: 12px;
+            padding-bottom: 12px;
+        }
+        .custom-div {
+            padding: 12px;
+            width: 380px;
+            height: 75px;
+            top: 428px;
+            left: 16px;
+            border-radius: 12px;
+            background-color: rgba(255, 255, 255, 1);
+            box-shadow: -4px 8px 25px -8px rgba(0, 0, 0, 0.15); /* X, Y, Blur, Spread */
+        }
+</style>
+</head>
+<body>
+    <div class="flex p-8 h-screen scroll-content">
+      
+       <div>
+        <div class="flex items-center gap-28 flex-row self-start mb-8 ">
+            <a href="goals.html">
+                <img src="/img/chevron-left.png"> <!-- Add margin to create space -->
+            </a>
+                        <h2 class="text-lg font-semibold text-center">Workout Tracker</h2>
+        </div>
+        <div class="flex justify-center items-center" style="width:400px;margin-top:0px;position:relative;margin-bottom: 150px;">
+            <!-- Add background image -->
+            <div class="flex flex-row gap-12" style="position:absolute;top:0px;left:38%">
+                <div class="text-sm text-gray-500">Good job</div>                
+                <div class="text-sm text-gray-500">less than 320cal</div>
+            </div>
+            <div class="flex flex-row gap-28" style="position:absolute;top:18px;left:45%">
+                <img src="img/Union.png" width="2px" height="10px">
+                <img src="img/Union.png" width="2px" height="10px">
+            </div>
+            <div style="background-image: url('img/Value.png'); width: 343px; height: 90px; position: absolute;top:30px;"></div>
+        </div>
+        <div class="flex justify-center items-center mt-8 mb-12" >
+            <img src="img/Frame 17.png" width="343px">
+        </div>
+      <div class="workout flex items-center justify-center flex-col">
+        <div class="flex justify-between items-center gap-40">
+            <div class="text-black-600 " style="font-weight: bold;">Upcoming Workout</div>
+            <a href="schedule.html">
+                <div class="text-gray-200 text-sm">See more</div>
+            </a>
+                    </div>
+        <div class="flex justify-between custom-div items-center m-4">
+<div class="flex flex-row gap-4">
+<div><img src="img/Ellipse 53.png" ></div>
+<div>
+    <div>Full Body Workout</div>
+    <div class="text-gray-200 text-sm">Today 3pm</div>
+</div>
+</div>
+<div>
+    <img src="img/Toggle.png" >
+</div>
+        </div>
+        <div class="flex justify-between custom-div items-center">
+            <div class="flex flex-row gap-4">
+            <div><img src="img/Ellipse 54.png" ></div>
+            <div>
+                <div>Upper Body Workout</div>
+                <div class="text-gray-200 text-sm">4 Feb, 3:30 pm</div>
+            </div>
+            </div>
+            <div>
+                <img src="img/Toggle.png" >
+            </div>
+                    </div>
+
+      </div>
+
+      <div class="train flex  m-4 flex-col">
+        <div class="text-black-600 " style="font-weight: bold;">What Do You Want to Train</div>
+        <div class="p-4 justify-between  h-124 rounded-lg bg-blue-400 bg-opacity-60 custom-shadow flex justify-center items-center mt-4">
+<div>
+<div>Full Body Workout</div>
+<div class="text-sm">Arms</div>
+<div class="text-sm">Chest</div>
+</div>
+<div><img src="img/Ellipse 55.png" ></div>
+        </div>
+      </div>
+
+       </div>
+                  
+              </div>
+              <footer>
+              <img src="img/search.png" style="position: fixed;bottom: 20px;">
+     <img src="img/Group 5.png" width="317px" height="27px">
+             
+              </footer>
+</body>
+</html>
