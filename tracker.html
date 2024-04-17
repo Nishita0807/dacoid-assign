@@ -7,8 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 <style>
     .scroll-content{
-height:600px;
-        overflow-y: scroll;
+max-height: auto;        overflow-y: scroll;
         
     }
     .custom-shadow {
@@ -29,7 +28,7 @@ height:600px;
         }
         .custom-div {
             padding: 12px;
-            width: 380px;
+            width: 100vw;
             height: 75px;
             top: 428px;
             left: 16px;
@@ -40,16 +39,16 @@ height:600px;
 </style>
 </head>
 <body>
-    <div class="flex p-8 h-screen scroll-content">
+    <div class="flex  h-screen scroll-content">
       
        <div>
-        <div class="flex items-center gap-28 flex-row self-start mb-8 ">
+        <div class="flex items-center gap-20 flex-row self-start mb-8 p-8 ">
             <a href="goals.html">
                 <img src="/img/chevron-left.png"> <!-- Add margin to create space -->
             </a>
                         <h2 class="text-lg font-semibold text-center">Workout Tracker</h2>
         </div>
-        <div class="flex justify-center items-center" style="width:400px;margin-top:0px;position:relative;margin-bottom: 150px;">
+        <div class="flex justify-center items-center" style="width:100vw;margin-top:0px;position:relative;margin-bottom: 150px;">
             <!-- Add background image -->
             <div class="flex flex-row gap-12" style="position:absolute;top:0px;left:38%">
                 <div class="text-sm text-gray-500">Good job</div>                
